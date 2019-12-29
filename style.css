@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Nunito&display=swap');
+html,
+body {
+    background-color: #c1dada;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+    transition: ease;
+}
+
+.main {
+    overflow: hidden;
+    background-color: #c1dada;
+}
+
+header {
+    background: #35424a;
+    width: 100%;
+    color: #fff;
+    padding-top: 20px;
+    min-height: 50px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header h1 {
+    font-family: "Notable", sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(240, 182, 182);
+}
+
+header p {
+    font-family: "Ubuntu", serif;
+    text-align: center;
+    color: #fff;
+}
+
+#img-div #image {
+    position: relative;
+    display: block;
+    background-color: #fff;
+    max-width: 70%;
+    height: auto;
+    margin: 10px 15vw;
+    opacity: 0.8;
+    border: #e8490d 1.75px solid;
+}
+
+figcaption {
+    text-align: center;
+    background: #fff;
+    font-family: "Ubuntu", serif;
+    color: #000;
+    margin: auto 100px;
+}
+
+#tribute-info {
+    color: #212c1d;
+}
+
+#tribute-info h2 {
+    text-align: center;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    padding: 25px auto;
+    margin-top: 17px;
+    text-decoration: underline;
+}
+
+#tribute-info ul {
+    text-align: left;
+    font-family: "Nunito", Arial, sans-serif;
+    margin: auto 50px;
+}
+
+#quote {
+    text-align: center;
+    padding: auto;
+    margin: auto 80px;
+    font-family: "Dancing Script", serif;
+}
+
+footer {
+    text-align: center;
+    color: #0ff;
+    background-color: #fff;
+    margin: 7px auto;
+}
+
+@media (max-width: 480px) {
+    #image-div #image {
+        max-width: 70%;
+    }
+    #tribute-info ul {
+        font-size: 25px;
+    }
+}
